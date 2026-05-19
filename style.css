@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background: black;
+  color: red;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* бокові картинки */
+.side-img {
+  position: fixed;
+  top: 0;
+  width: 15%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+/* основний блок */
+.content {
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* хедер */
+header {
+  padding-top: 20px;
+}
+
+.gif {
+  height: 250px;
+  width: 250px;
+  height: auto;
+}
+
+h1,
+h2 {
+  margin: 5px 0;
+}
+
+/* відео частина */
+.video-title {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+video {
+  width: 100%;
+}
+
+.video-text {
+  font-size: 18px;
+}
